@@ -7,7 +7,7 @@ Doorkeeper.configure do
 
   # This block will be called to check whether the resource owner is authenticated or not.
   resource_owner_authenticator do
-    session[:return_to] = request.full_path
+    session[:return_to] = request.fullpath
     current_user || redirect_to(new_user_session_url)
     # Put your resource owner authentication logic here.
     # Example implementation:
@@ -159,7 +159,7 @@ Doorkeeper.configure do
   # For more information go to
   # https://doorkeeper.gitbook.io/guides/ruby-on-rails/scopes
   #
-  # default_scopes  :public
+  default_scopes  :public
   # optional_scopes :write, :update
 
   # Allows to restrict only certain scopes for grant_type.
