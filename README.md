@@ -1,2 +1,2 @@
-# oauth_test
+# oauth_test_provider
 oauthの練習

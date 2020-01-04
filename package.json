@@ -1,5 +1,5 @@
 {
-  "name": "oauth_test",
+  "name": "oauth_test_provider",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
